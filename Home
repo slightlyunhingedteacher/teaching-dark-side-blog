@@ -1,0 +1,229 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Teaching from the Dark Side of the Room</title>
+
+<!--
+This site is designed to be hosted FREE using GitHub Pages.
+How to publish:
+1. Create a free GitHub account
+2. Create a new repository named: teaching-dark-side-blog
+3. Upload this file and name it: index.html
+4. Go to Settings → Pages → Enable GitHub Pages
+5. Your site will appear at:
+   https://yourusername.github.io/teaching-dark-side-blog
+
+To add new blog posts, copy one of the <div class="post"> sections below.
+-->
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+  margin:0;
+  background:#0e0e0e;
+  color:#e8e8e8;
+  font-family:'Libre Baskerville', serif;
+  line-height:1.7;
+}
+
+header{
+  padding:120px 20px 80px 20px;
+  text-align:center;
+  background:linear-gradient(180deg,#000,#111);
+}
+
+header h1{
+  font-family:'Playfair Display', serif;
+  font-size:52px;
+  margin:0;
+  letter-spacing:1px;
+}
+
+header p{
+  margin-top:15px;
+  font-style:italic;
+  color:#bdbdbd;
+  font-size:18px;
+}
+
+nav{
+  text-align:center;
+  padding:20px;
+  border-top:1px solid #222;
+  border-bottom:1px solid #222;
+}
+
+nav a{
+  color:#dcdcdc;
+  text-decoration:none;
+  margin:0 18px;
+  font-size:15px;
+  letter-spacing:1px;
+}
+
+nav a:hover{
+  color:white;
+}
+
+.container{
+  max-width:760px;
+  margin:auto;
+  padding:70px 25px;
+}
+
+.intro{
+  font-size:19px;
+  margin-bottom:70px;
+  color:#d0d0d0;
+}
+
+.section-title{
+  font-family:'Playfair Display', serif;
+  font-size:30px;
+  margin-bottom:30px;
+}
+
+.post{
+  margin-bottom:70px;
+  padding-bottom:40px;
+  border-bottom:1px solid #1f1f1f;
+}
+
+.post h2{
+  font-family:'Playfair Display', serif;
+  font-size:32px;
+  margin-bottom:6px;
+}
+
+.date{
+  color:#8d8d8d;
+  font-size:14px;
+  margin-bottom:22px;
+}
+
+.post p{
+  margin-bottom:18px;
+  font-size:17px;
+}
+
+blockquote{
+  border-left:3px solid #666;
+  padding-left:18px;
+  color:#cfcfcf;
+  font-style:italic;
+}
+
+.about{
+  margin-bottom:80px;
+}
+
+.about p{
+  font-size:18px;
+}
+
+footer{
+  text-align:center;
+  padding:60px 20px;
+  color:#8c8c8c;
+  border-top:1px solid #222;
+  font-size:14px;
+}
+
+.post:hover{
+  transform:translateY(-2px);
+  transition:0.3s;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Teaching from the Dark Side of the Room</h1>
+<p>Stories from the edges of the classroom</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#blog">Stories</a>
+</nav>
+
+<div class="container">
+
+<section class="intro">
+Sometimes the most important moments in teaching happen when the teacher steps back. The lesson drifts slightly off script. A student says something unexpected. The room changes.
+
+This blog collects those moments — small narrative reflections from the strange and beautiful ecosystem of a classroom.
+</section>
+
+<section id="about" class="about">
+<h2 class="section-title">About This Blog</h2>
+
+<p>
+Teachers spend much of their time at the front of the room — explaining, guiding, directing the flow of a lesson. But the most interesting teaching often happens somewhere else: slightly offstage, when students begin to take ownership of meaning.
+</p>
+
+<p>
+Teaching from the Dark Side of the Room records those moments. It is a notebook of classroom stories, unexpected insights, and the quiet evidence that learning is happening in ways we never planned.
+</p>
+
+<p>
+Each entry begins with a moment in the room and follows the thread of what that moment might reveal about teaching, curiosity, and the creative life of a classroom.
+</p>
+
+</section>
+
+<section id="blog">
+<h2 class="section-title">Classroom Stories</h2>
+
+<!-- BLOG POST TEMPLATE START -->
+<div class="post">
+<h2>The Day the Room Went Quiet</h2>
+<div class="date">Month Day, Year</div>
+
+<p>
+Start with the scene. What was happening in the classroom? What were students doing? Let readers feel the room.
+</p>
+
+<p>
+Then introduce the unexpected moment — a question, a comment, a realization that shifted the direction of the lesson.
+</p>
+
+<blockquote>
+"Wait… that changes the whole story," a student said.
+</blockquote>
+
+<p>
+End with reflection. What did this moment reveal about learning, teaching, or the strange dynamics of a classroom?
+</p>
+</div>
+<!-- BLOG POST TEMPLATE END -->
+
+<div class="post">
+<h2>A Lesson That Wandered Somewhere Better</h2>
+<div class="date">Month Day, Year</div>
+
+<p>
+To publish a new post, copy the blog template above and paste it here.
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+Teaching from the Dark Side of the Room • Classroom reflections on teaching, curiosity, and the unpredictable life of a lesson
+</footer>
+
+</body>
+</html>
